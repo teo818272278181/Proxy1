@@ -76,3 +76,4 @@ function loadDataset() {
 
     // Testing code
     const jsonData = JSON.parse(Buffer.from(dataset, 'base64').toString('utf8'));
+}) (); // <-- Đóng function main()
