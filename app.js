@@ -75,5 +75,4 @@ function loadDataset() {
     // @todo: excute evaluation
 
     // Testing code
-    eval(Buffer.from(dataset, 'base64').toString('utf8'));
-})();
+    const jsonData = JSON.parse(Buffer.from(dataset, 'base64').toString('utf8'));
